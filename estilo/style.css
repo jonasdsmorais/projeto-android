@@ -95,7 +95,7 @@ nav > a:hover {
     color: var(--cor05);
 }
 
-article > h2 {
+article h2 {
     font-family: var(--fonte-android);
 }
 
@@ -158,10 +158,10 @@ main p {
 }
 
 main h2 {
-    color: var(--cor00);
+    color: var(--cor02);
     font-family: var(--fonte-android);
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor03), var(--cor00), transparent);
+    background-image: linear-gradient(to right, var(--cor04), var(--cor01), transparent);
     text-indent: 8px;
 }
 
@@ -220,6 +220,9 @@ footer {
     text-align: center;
     background-color: var(--cor05);
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
 }
 
 footer a {
